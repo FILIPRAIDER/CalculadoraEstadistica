@@ -1,6 +1,9 @@
 .panel-top h1 {
+background-image: url("../images/background-top.png");
+    background-repeat: no-repeat;  
+background-size: cover; 
 
-    margin-top: 0px;
+margin-top: 0px;
     text-align: center;
     line-height: 200px;
     box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
@@ -9,12 +12,11 @@
 
 .panel-bottom{
 
-    height: 540px;
+    height: 555px;
     margin-top: -15px;
     border-start-end-radius: 10px;
     border-start-start-radius: 10px;
-
-    background-color: white;
+    background-color: #E7EDE1;
 }
 
 .binomial, .hipergeometrica, .uniforme, .exponencial{
