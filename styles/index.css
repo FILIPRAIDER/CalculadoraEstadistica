@@ -24,11 +24,14 @@ box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
     box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
     border-radius: 19px 19px 19px 19px;
     position: absolute;
+    display: flex;
+    flex-direction: column;
     height: 397px;
     width: 350px;
     margin-top: 70px;
     
 }
+
 
 .binomial{ margin-left: 20px}
 .hipergeometrica{margin-left: 400px}
