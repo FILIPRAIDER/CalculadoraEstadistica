@@ -6,160 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="stylesheet" href="styles/index.css" />
     <!--Encabezado-->
     <title>Estadistica App</title>
   </head>
   <body>
     <!--Contenedor del panel superior-->
-    <div>
-      <h1
-        style="
-          margin-top: 0px;
-          text-align: center;
-          line-height: 200px;
-          box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
-        "
-      >
-        CALCULADORA DE ESTADISTICA
-      </h1>
+    <div class="panel-top">
+      <h1>CALCULADORA DE ESTADISTICA</h1>
     </div>
     <!--Contenedor del panel inferior-->
-    <div
-      style="
-        height: 540px;
-        margin-top: -15px;
-        border-start-end-radius: 10px;
-        border-start-start-radius: 10px;
-
-        background-color: white;
-      "
-    >
+    <div class="panel-bottom">
       <!--Primera tarjeta-->
-      <div
-        style="
-          box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
-          border-radius: 19px 19px 19px 19px;
-          position: absolute;
-          height: 397px;
-          width: 350px;
-          margin-top: 70px;
-          margin-left: 20px;
-        "
-      >
+      <div class="binomial">
         <div class="card lg-3">
           <h4 class="card-header">Distribucion Binomial</h4>
-
           <img src="./images/binomial.png" alt="" />
-
-          <div
-            style="display: flex; align-items: center; justify-content: center"
-            class="card-body"
-          >
-            <button
-              style="width: 100%; margin-top: 0px"
-              type="button"
-              class="btn btn-success"
-            >
-              Calculadora
-            </button>
-          </div>
+          <div class="container-button" class="card-body">
+            <button onclick="location.href='./page/Distribucion-Binomial.html'" type="button" class="btn btn-success">Calculadora</button>
+          </div> 
         </div>
       </div>
       <!--Segunda tarjeta-->
-      <div
-        style="
-          box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
-          border-radius: 19px 19px 19px 19px;
-          position: absolute;
-          height: 397px;
-          width: 350px;
-          margin-top: 70px;
-          margin-left: 400px;
-        "
-      >
+      <div class="hipergeometrica">
         <div class="card lg-3">
           <h4 class="card-header">Distribucion Hipergeometrica</h4>
-
           <img src="./images/hipergeometrica.png" alt="" />
-
-          <div
-            style="display: flex; align-items: center; justify-content: center"
-            class="card-body"
-          >
-            <button
-              style="width: 100%; margin-top: 0px"
-              type="button"
-              class="btn btn-success"
-            >
-              Calculadora
-            </button>
-          </div>
+          <div class="container-button" class="card-body">
+            <button type="button" class="btn btn-success">Calculadora</button>
+          </div>   
         </div>
       </div>
       <!--Tercera tarjeta-->
-      <div
-        style="
-          box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
-          border-radius: 19px 19px 19px 19px;
-          position: absolute;
-          height: 362px;
-          width: 350px;
-          margin-top: 70px;
-          margin-left: 785px;
-        "
-      >
+      <div class="uniforme">
         <div class="card lg-3">
           <h4 class="card-header">Distribucion Uniforme</h4>
-
-          <img src="" alt="" />
-          <div class="card-body">
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-          </div>
-
-          <div class="card-body"></div>
+          <img src="./images/binomial.png" alt="" />
+          <div class="container-button" class="card-body">
+            <button type="button" class="btn btn-success">Calculadora</button>
+          </div>  
+          </div>  
         </div>
-      </div>
-      <!--Cuarta tarjeta-->
-      <div
-        style="
-          box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
-          border-radius: 19px 19px 19px 19px;
-          position: absolute;
-          height: 362px;
-          width: 350px;
-          margin-top: 70px;
-          margin-left: 1165px;
-        "
-      >
-        <div class="card lg-3">
-          <h4 class="card-header">Distribucion Exponencial</h4>
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="d-block user-select-none"
-            width="100%"
-            height="200"
-            aria-label="Placeholder: Image cap"
-            focusable="false"
-            role="img"
-            preserveAspectRatio="xMidYMid slice"
-            viewBox="0 0 318 180"
-            style="font-size: 1.125rem; text-anchor: middle"
-          >
-            <rect width="100%" height="100%" fill="#868e96"></rect>
-            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-          </svg>
-          <div class="card-body">
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+        <!--Cuarta tarjeta-->
+        <div class="exponencial">
+          <div class="card lg-3">
+            <h4 class="card-header">Distribucion Exponencial</h4>
+            <img src="./images/binomial.png" alt="" />
+          <div class="container-button" class="card-body">
+            <button type="button" class="btn btn-success">Calculadora</button>
+          </div>       
+            </div>
           </div>
-
-          <div class="card-body"></div>
         </div>
       </div>
     </div>
