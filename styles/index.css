@@ -32,6 +32,7 @@
             border-start-start-radius: 10px;
             background-color: #E7EDE1;
             
+            
         }
         
         .binomial, .hipergeometrica, .uniforme, .exponencial{
@@ -53,7 +54,14 @@
             min-width: 210px;
 
         }
-        
+        #card3{
+            height: 397px;
+        }
+        #button3{
+
+            margin-top: 25px;
+
+        }
         
         .binomial{ margin-left: 20px}
         .hipergeometrica{margin-left: 400px}
