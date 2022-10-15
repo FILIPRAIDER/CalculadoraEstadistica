@@ -17,6 +17,8 @@ box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
     border-start-end-radius: 10px;
     border-start-start-radius: 10px;
     background-color: #E7EDE1;
+    display: flex;
+    flex-direction: column;
 }
 
 .binomial, .hipergeometrica, .uniforme, .exponencial{
@@ -24,8 +26,6 @@ box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
     box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
     border-radius: 19px 19px 19px 19px;
     position: absolute;
-    display: flex;
-    flex-direction: column;
     height: 397px;
     width: 350px;
     margin-top: 70px;
