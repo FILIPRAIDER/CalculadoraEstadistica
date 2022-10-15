@@ -17,8 +17,7 @@ box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
     border-start-end-radius: 10px;
     border-start-start-radius: 10px;
     background-color: #E7EDE1;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .binomial, .hipergeometrica, .uniforme, .exponencial{
@@ -28,8 +27,6 @@ box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
     position: absolute;
     height: 397px;
     width: 350px;
-    display: flex;
-    flex-direction: column;
     margin-top: 70px;
     
 }
@@ -76,6 +73,8 @@ button{
             border-start-end-radius: 10px;
             border-start-start-radius: 10px;
             background-color: #E7EDE1;
+            display: flex;
+            flex-direction: column;
         }
         
         .binomial, .hipergeometrica, .uniforme, .exponencial{
@@ -86,6 +85,8 @@ button{
             height: 397px;
             width: 350px;
             margin-top: 70px;
+            display: flex;
+            flex-direction: column;
             
         }
         
