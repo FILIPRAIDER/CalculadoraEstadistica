@@ -28,6 +28,8 @@ box-shadow: inset 0px -10px 16px 6px rgba(0, 0, 0, 0.5);
     position: absolute;
     height: 397px;
     width: 350px;
+    display: flex;
+    flex-direction: column;
     margin-top: 70px;
     
 }
