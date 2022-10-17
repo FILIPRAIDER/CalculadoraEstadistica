@@ -2,6 +2,8 @@
 #navbar{
 
 margin-top: 17px;
+margin-left: 5px;
+margin-right: 5px;
 
 }
 .toggle{
@@ -17,6 +19,11 @@ margin-top: 17px;
     
     }
 
+.nav-item{
+
+padding: 0 10px;
+
+}
 
 body{
 
@@ -31,7 +38,8 @@ background-color: #E7EDE1;
 
 #navbar{
     margin-top: 10px;
-    width: 100%;
+    margin-left: 4px;
+    width: 98%;
     height: 70px;
 }
 .toggle{
@@ -52,28 +60,39 @@ background-color: #E7EDE1;
 }
 
 .navbar-nav{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.43);
     position: fixed;
     background-color: #333333;
-    padding-left: 20px;
+    padding-left: 0px;
     top: 85px;
     width: 100%;
     text-align: center;
     font-size: 18px;
-    left: 100%;
+    right: 100%;
     
 
-    transition: left 0.3s;
+    transition: right 0.3s;
 }
 .nav-item{
 
 padding: 20px 0;
+border-top: 2px solid black;
+
+
+}
+
+#nav-item1{
+
+    border-radius: 10px 10px 0px 0px ;
+    border-top: 2px solid #333333;
 
 }
 
 
 .nav-menu_visible{
 
-left: 0;
+right: 0;
 
 }
 
