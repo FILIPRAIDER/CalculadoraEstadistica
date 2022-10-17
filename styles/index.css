@@ -35,8 +35,8 @@
             
         }
         
-        .binomial, .hipergeometrica, .uniforme, .exponencial{
         
+        #card1, #card2, #card3, #card4{
             box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
             border-radius: 19px 19px 19px 19px;
             position: absolute;
@@ -45,13 +45,9 @@
             min-height: 250px;
             min-width: 210px;
             margin-top: 70px;
-            
-        }
-        
-        #card1, #card2, #card3, #card4{
-
             min-height: 250px;
             min-width: 210px;
+            
 
         }
         #card3{
@@ -62,11 +58,8 @@
             margin-top: 25px;
 
         }
-        
-        .binomial{ margin-left: 20px}
-        .hipergeometrica{margin-left: 400px}
-        .uniforme{margin-left: 785px}
-        .exponencial{margin-left: 1165px}
+       
+    
         
         button{
         
@@ -114,31 +107,30 @@
 
         }
         
-        .binomial, .hipergeometrica, .uniforme, .exponencial{
-        
+        #card1, #card2, #card3, #card4{
+
             box-shadow: 2px 6px 29px -6px rgba(0, 0, 0, 0.51);
             border-radius: 19px 19px 19px 19px;
             height: 397px;
             width: 350px;
-            
-            
-            
-            
+
         }
         
-        .binomial{ 
+        #card1{ 
             margin-left: 20px;
             margin-top: 70px;
         }
-        .hipergeometrica{
+        #card2{
             margin-left: 20px;
             margin-top: 50px;
         }
-        .uniforme{
+        #card3{
             margin-left: 20px;
             margin-top: 50px;
+            height: 397px;
+            
         }
-        .exponencial{
+        #card4{
             margin-left: 20px;
             margin-top: 50px;
         }
