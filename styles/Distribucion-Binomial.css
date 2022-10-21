@@ -42,6 +42,7 @@ width: 30%;
 height: 55%;
 margin-top: 130px;
 margin-left: 100px;
+margin-bottom: 40px;
 
 }
 .formula{
@@ -53,6 +54,7 @@ height:50%;
 margin-top: 150px;
 margin-left: 100px;
 margin-right: 25px;
+margin-bottom: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -62,16 +64,16 @@ align-items: center;
 .panel-bottom{
 background-color: #E7EDE1;
 box-shadow: 0px -5px 10px -3px rgba(0,0,0,0.67);
-border-radius: 10px 10px 0px 0px ;
+border-radius: 10px 10px 10px 10px ;
 padding-left: 20px;
 display: flex;
 justify-content: left;
 
 width: 100%;
-height: 180px;
+height: 157px;
 margin-top: 44px;
 position: absolute;
-top: 70%;
+top: 73%;
 
 
 }
@@ -214,7 +216,7 @@ text-align: center;
 
 display: flex;
 margin-top: 30px;
-margin-bottom: 30px;
+margin-bottom: 20px;
 
 }
 #boton1{
