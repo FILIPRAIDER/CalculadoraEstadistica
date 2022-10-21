@@ -94,7 +94,7 @@ text-align: center;
 
     position: absolute;
     margin-bottom: 8px;
-    top: 338px;
+    top: 320px;
     left: 180px;
     width: 100px;
 
@@ -103,7 +103,7 @@ text-align: center;
 
     position: absolute;
     margin-bottom: 8px;
-    top: 400px;
+    top: 370px;
     left: 180px;
     width: 100px;
     
@@ -111,7 +111,7 @@ text-align: center;
 .recivep{
 position: absolute;
 margin-bottom: 8px;
-top: 280px;
+top: 270px;
 left: 180px;
 width: 100px;
 }
@@ -123,13 +123,13 @@ h1{
 h2{
 
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 p{
-    margin-top: 23px;
+    margin-top: 22px;
     margin-left: 45px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #rdecimal{
@@ -216,7 +216,7 @@ text-align: center;
 .btn-calcular{
 
 display: flex;
-margin-top: 30px;
+margin-top: 35px;
 margin-bottom: 20px;
 
 }
