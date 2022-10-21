@@ -23,15 +23,25 @@
           <p>p :</p>
           <p>X :</p>
           <p>n :</p>
-          <input class="recivep" type="text" />
-          <input class="recivex" type="text" />
-          <input class="reciven" type="text" />
+          <input class="recivep" type="number" id="rp" />
+          <input oninput="{mostrar();}" class="recivex" type="number" id="rx" />
+          <input oninput="{mostrar();}" class="reciven" type="number" id="rn" />
 
           <div class="btn-calcular">
-            <button id="boton1" type="button" class="btn btn-success">
+            <button
+              onclick="{solucion();}"
+              id="boton1"
+              type="button"
+              class="btn btn-success"
+            >
               Calcular
             </button>
-            <button id="boton2" type="button" class="btn btn-info">
+            <button
+              onclick="{limpiar();}"
+              id="boton2"
+              type="button"
+              class="btn btn-info"
+            >
               Limpiar
             </button>
           </div>
@@ -39,22 +49,22 @@
         <div class="formula">
           <img id="img1" src="../images/formula_binomial.png" alt="" />
           <img id="img2" src="../images/formula_binomial_movil.png" alt="" />
-          <input class="insertk" type="text" name="" id="" />
-          <input class="insertk1" type="text" name="" id="" />
-          <input class="insertk2" type="text" name="" id="" />
-          <input class="insertk3" type="text" name="" id="" />
-          <input class="insertk4" type="text" name="" id="" />
-          <input class="insertn1" type="text" name="" id="" />
-          <input class="insertn2" type="text" name="" id="" />
-          <input class="insertn3" type="text" name="" id="" />
+          <input class="insertx" type="text" id="insertk" readonly />
+          <input class="insertx" type="text" id="insertk1" readonly />
+          <input class="insertx" type="text" id="insertk2" readonly />
+          <input class="insertx" type="text" id="insertk3" readonly />
+          <input class="insertx" type="text" id="insertk4" readonly />
+          <input class="insertn" type="text" id="insertn1" readonly />
+          <input class="insertn" type="text" id="insertn2" readonly />
+          <input class="insertn" type="text" id="insertn3" readonly />
         </div>
       </div>
       <div class="panel-bottom">
         <h1>Resultados :</h1>
         <p id="rdecimal">Decimal :</p>
-        <input id="resul1" class="results" type="text" />
+        <input id="resul1" class="results" type="text" readonly />
         <p id="rporcentaje">Porcentaje :</p>
-        <input id="resul2" class="results" type="text" />
+        <input id="resul2" class="results" type="text" readonly />
       </div>
     </div>
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
