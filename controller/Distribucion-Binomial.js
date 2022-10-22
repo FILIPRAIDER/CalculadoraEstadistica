@@ -75,7 +75,7 @@ function solucion() {
 
     var solucion = Number((factorial(n) / (factorial(x) * factorial(n - x))) * exponente(p, x) * exponente(1 - p, n - x)).toFixed(4);
 
-    var solucion_porcen = solucion * 100 + "%";
+    var solucion_porcen = Number(solucion).toFixed(4) * 100 + "%";
 
     document.getElementById("resul1").value = solucion;
     document.getElementById("resul2").value = solucion_porcen;
