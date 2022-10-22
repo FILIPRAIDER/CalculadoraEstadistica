@@ -21,6 +21,12 @@ height: 740px;
 
 
 }
+a:hover{
+
+    transform: scale(1.1,1.2);
+
+
+}
 .panel-top{
     background-image: url("../images/background-top.png");
     background-repeat: no-repeat;  
