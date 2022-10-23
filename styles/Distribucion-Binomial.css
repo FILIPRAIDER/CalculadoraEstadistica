@@ -387,7 +387,7 @@ p{
 
     
                 position: absolute;
-                top: 470px;
+                top: 110px;
                 height: 50px;
                 width: 300px;
                 display: flex;
@@ -398,7 +398,7 @@ p{
                 }
             #alerta2{
                 position: absolute;
-                top: 470px;
+                top: 110px;
                 height: 50px;
                 width: 300px;
                 display: flex;
