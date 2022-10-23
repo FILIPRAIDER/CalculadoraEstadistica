@@ -394,7 +394,7 @@ p{
                 text-align: start;
                 align-items: center;
                 left: 40px;
-            
+                z-index: 1;
                 }
             #alerta2{
                 position: absolute;
@@ -405,6 +405,7 @@ p{
                 text-align: start;
                 align-items: center;
                 left: 40px;
+                z-index: 1;
             
             }
             
