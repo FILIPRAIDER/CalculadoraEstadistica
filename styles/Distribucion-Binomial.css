@@ -28,7 +28,7 @@ height: 740px;
 
     
     position: absolute;
-    top: 270px;
+    top: 320px;
     height: 50px;
     width: 250px;
     display: flex;
@@ -383,6 +383,59 @@ p{
             padding-bottom: 20px;
             
             }
+            .alert{
+
+    
+                position: absolute;
+                top: 470px;
+                height: 50px;
+                width: 300px;
+                display: flex;
+                text-align: start;
+                align-items: center;
+                left: 40px;
+            
+                }
+            #alerta2{
+                position: absolute;
+                top: 470px;
+                height: 50px;
+                width: 300px;
+                display: flex;
+                text-align: start;
+                align-items: center;
+                left: 40px;
+            
+            }
+            
+            .alert > p{
+              font-size: 13px;
+              margin-left: 0;
+              margin-right: 0;
+            }
+            
+            .mensaje-alerta{
+            
+            display: none;
+            
+            }
+            .mensaje-alerta2{
+            
+                display: none;
+                
+                }
+            
+            .mensaje-alerta-show{
+            
+            display: block;
+            
+            }
+            
+            .mensaje-alerta2-show{
+            
+                display: block;
+                
+                }
             .formula{
                 background-color: #E7EDE1;
                 border-radius: 25px 25px 25px 25px;
