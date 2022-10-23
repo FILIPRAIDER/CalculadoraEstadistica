@@ -69,16 +69,60 @@ function limpiar() {
 }
 
 function solucion() {
+
+    var p = document.getElementById("rp").value;
+    var x = document.getElementById("rx").value;
+    var n = document.getElementById("rn").value;
+
+    if (p != "" && x != "" && n != "") {
+
+        p = parseFloat(document.getElementById("rp").value);
+        x = parseFloat(document.getElementById("rx").value);
+        n = parseFloat(document.getElementById("rn").value);
+
+        var solucion = Number((factorial(n) / (factorial(x) * factorial(n - x))) * exponente(p, x) * exponente(1 - p, n - x)).toFixed(4);
+
+        var solucion_porcen = Number(solucion * 100).toFixed(2);
+
+        document.getElementById("resul1").value = solucion;
+        document.getElementById("resul2").value = solucion_porcen + "%";
+
+
+    } else {
+
+        document.getElementById("msg2").classList.add("mensaje-alerta2-show");
+        document.getElementById("alerta2").classList.add("alert-danger");
+
+    }
+
+
+}
+
+function cerrara2() {
+
+    document.getElementById("msg2").classList.remove("mensaje-alerta2-show");
+    document.getElementById("alerta2").classList.remove("alert-danger");
+
+
+}
+
+function alerta() {
+
     var p = parseFloat(document.getElementById("rp").value);
-    var x = parseFloat(document.getElementById("rx").value);
-    var n = parseFloat(document.getElementById("rn").value);
 
-    var solucion = Number((factorial(n) / (factorial(x) * factorial(n - x))) * exponente(p, x) * exponente(1 - p, n - x)).toFixed(4);
+    if (p > 1 || p < 0) {
 
-    var solucion_porcen = Number(solucion * 100).toFixed(2);
+        document.getElementById("msg").classList.add("mensaje-alerta-show");
+        document.getElementById("alerta").classList.add("alert-danger");
+        document.getElementById("rp").value = "";
 
-    document.getElementById("resul1").value = solucion;
-    document.getElementById("resul2").value = solucion_porcen + "%";
+    } else {
+
+        document.getElementById("msg").classList.remove("mensaje-alerta-show");
+        document.getElementById("alerta").classList.remove("alert-danger");
+
+
+    }
 
 
 }

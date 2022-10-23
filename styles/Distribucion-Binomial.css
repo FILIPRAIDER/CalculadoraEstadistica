@@ -22,6 +22,62 @@ height: 740px;
 
 }
 
+
+
+.alert{
+
+    
+    position: absolute;
+    top: 270px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    left: 290px;
+
+    }
+#alerta2{
+    position: absolute;
+    top: 320px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    left: 290px;
+
+}
+
+.alert > p{
+  font-size: 13px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mensaje-alerta{
+
+display: none;
+
+}
+.mensaje-alerta2{
+
+    display: none;
+    
+    }
+
+.mensaje-alerta-show{
+
+display: block;
+
+}
+
+.mensaje-alerta2-show{
+
+    display: block;
+    
+    }
+
 a:hover{
 
     transform: scale(1.1,1.2);
