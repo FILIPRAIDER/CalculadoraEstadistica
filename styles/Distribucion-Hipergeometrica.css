@@ -144,43 +144,55 @@
     
     
     }
-    #insertk{
+    #insertx{
     
     
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-right: 400px;
     margin-top: 40px;
     text-align: center;
-    
+        
     }
     
     .recivex{
     
         position: absolute;
         margin-bottom: 8px;
-        top: 330px;
+        top: 260px;
         left: 180px;
         width: 100px;
     
     }
-    .reciven{
+    .recivek{
     
         position: absolute;
         margin-bottom: 8px;
-        top: 385px;
+        top: 310px;
         left: 180px;
         width: 100px;
         
         }
-    .recivep{
-    position: absolute;
-    margin-bottom: 8px;
-    top: 280px;
-    left: 180px;
-    width: 100px;
-    }
+        .reciveN{
+    
+            position: absolute;
+            margin-bottom: 8px;
+            top: 365px;
+            left: 180px;
+            width: 100px;
+            
+            }
+    .reciven{
+    
+        position: absolute;
+        margin-bottom: 8px;
+        top: 418px;
+        left: 180px;
+        width: 100px;
+        
+        }
+        
     
     h1{
         font-size: 30px;
@@ -284,7 +296,7 @@
     .btn-calcular{
     
     display: flex;
-    margin-top: 35px;
+    margin-top: 15px;
     margin-bottom: 20px;
     
     }
@@ -344,6 +356,7 @@
     h1{
         text-align: center;
         margin-top: 15px;
+        font-size: 24px;
     }
     h2{
     
@@ -380,7 +393,7 @@
                 border-radius: 25px 25px 25px 25px;
                 box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
                 width: 85%;
-                height: 340px;
+                height: 380px;
                 margin-top: 100px;
                 margin-left: 30px;
                 padding-bottom: 20px;
@@ -444,17 +457,18 @@
                     background-color: #E7EDE1;
                     border-radius: 25px 25px 25px 25px;
                     box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
-                    width: 90%;
-                    height:40%;
+                    width: 400px;
+                    height: 300px;
                     margin-top: 20px;
-                    margin-left: 20px;
-                    margin-right: 25px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    margin-bottom: 15px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     }
              
-                #insertk{
+                #insertx{
     
                     position: absolute;
                     width: 20px;
@@ -534,34 +548,42 @@
                                                         text-align: center;
                                                         
                                                         }
-    .recivep{
-        position: absolute;
-        margin-bottom: 10px;
-        top: 220px;
-        left: 100px;
-        width: 100px;
-    }
+                                                        .recivex{
     
-    
-                .recivex{
-    
-                    position: absolute;
-                    margin-bottom: 10px;
-                    top: 268px;
-                    left: 100px;
-                    width: 100px;
-                    
-                    }
-                    .reciven{
-                    
-                        position: absolute;
-                        margin-bottom: 10px;
-                        top: 318px;
-                        left: 100px;
-                        width: 100px;
-                        
-                        }
-                        
+                                                            position: absolute;
+                                                            margin-bottom: 8px;
+                                                            top: 210px;
+                                                            left: 100px;
+                                                            width: 100px;
+                                                        
+                                                        }
+                                                        .recivek{
+                                                        
+                                                            position: absolute;
+                                                            margin-bottom: 8px;
+                                                            top: 263px;
+                                                            left: 100px;
+                                                            width: 100px;
+                                                            
+                                                            }
+                                                            .reciveN{
+                                                        
+                                                                position: absolute;
+                                                                margin-bottom: 8px;
+                                                                top: 315px;
+                                                                left: 100px;
+                                                                width: 100px;
+                                                                
+                                                                }
+                                                        .reciven{
+                                                        
+                                                            position: absolute;
+                                                            margin-bottom: 8px;
+                                                            top: 365px;
+                                                            left: 100px;
+                                                            width: 100px;
+                                                            
+                                                            }   
     .btn-calcular{
     
         display: flex;
@@ -572,8 +594,8 @@
                 #boton1{
     
                     width: 100px;
-                    margin-left: 60px;
-                    margin-top: 15px;
+                    margin-left: 75px;
+                    margin-top: 6px;
                 
                 }
                 #boton2{
@@ -581,7 +603,7 @@
                     width: 100px;
                     margin-left: 15px;
                     margin-right: 40px; 
-                    margin-top: 15px;
+                    margin-top: 6px;
                 
                 }
     

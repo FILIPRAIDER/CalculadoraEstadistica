@@ -20,39 +20,14 @@
         <div class="variables">
           <h1>Distribucion Hipergeometrica</h1>
           <h2>Ingrese las variables:</h2>
-          <p>p :</p>
-          <div id="alerta" class="alert">
-            <p id="msg" class="mensaje-alerta">
-              p es una probabilidad, por tanto debe ingresar un numero entre 0 y
-              1.
-            </p>
-          </div>
-          <div id="alerta2" class="alert">
-            <p id="msg2" class="mensaje-alerta2">
-              Para realizar el calculo por favor ingrese las variables!
-            </p>
-          </div>
-          <p>X :</p>
+          <p>x :</p>
+          <p>K :</p>
+          <p>N :</p>
           <p>n :</p>
-          <input
-            oninput="{alerta(),cerrara2();}"
-            class="recivep"
-            type="number"
-            id="rp"
-          />
-          <input
-            oninput="{mostrar(),cerrara2();}"
-            class="recivex"
-            type="number"
-            id="rx"
-          />
-          <input
-            oninput="{mostrar(),cerrara2();}"
-            class="reciven"
-            type="number"
-            id="rn"
-          />
-
+          <input class="recivex" type="number" id="rx" />
+          <input class="recivek" type="number" id="rk" />
+          <input class="reciveN" type="number" id="rN" />
+          <input class="reciven" type="number" id="rn" />
           <div class="btn-calcular">
             <button
               onclick="{solucion();}"
@@ -73,16 +48,9 @@
           </div>
         </div>
         <div class="formula">
-          <img id="img1" src="../images/formula-hipergeometrica.png" alt="" />
-          <img id="img2" src="../images/formula_binomial_movil.png" alt="" />
-          <input class="insertx" type="text" id="insertk" readonly />
-          <input class="insertx" type="text" id="insertk1" readonly />
-          <input class="insertx" type="text" id="insertk2" readonly />
-          <input class="insertx" type="text" id="insertk3" readonly />
-          <input class="insertx" type="text" id="insertk4" readonly />
-          <input class="insertn" type="text" id="insertn1" readonly />
-          <input class="insertn" type="text" id="insertn2" readonly />
-          <input class="insertn" type="text" id="insertn3" readonly />
+          <img id="img1" src="../images/formula_hipergeometrica.png" alt="" />
+          <img id="img2" src="../images/formula_hipergeometrica.png" alt="" />
+          <input class="insertx" type="text" id="insertx" readonly />
         </div>
       </div>
       <div class="panel-bottom">
