@@ -23,7 +23,18 @@
     
     }
     
-    
+    .derechos{
+        margin-top: 85px;
+        
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #92968E;
+        
+        }
     
     .alert{
     
@@ -144,17 +155,106 @@
     
     
     }
+
+    .panel-bottom h1{
+
+ font-size: 40px;
+
+    }
     #insertx{
     
     
     position: absolute;
     width: 25px;
     height: 25px;
-    margin-right: 400px;
-    margin-top: 40px;
+    margin-right: 116px;
+    margin-top: 5px;
     text-align: center;
         
     }
+    #insertx1{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -25px;
+        margin-top: -40px;
+        text-align: center;
+            
+    }
+    #insertx2{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -230px;
+        margin-top: -40px;
+        text-align: center;
+            
+    }
+    #insertk{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -25px;
+        margin-top: -115px;
+        text-align: center;
+            
+    }
+    #insertk1{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -240px;
+        margin-top: -115px;
+        text-align: center;
+            
+    }
+    #insertN{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -145px;
+        margin-top: -115px;
+        text-align: center;
+            
+    }
+    #insertN1{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -130px;
+        margin-top: 50px;
+        text-align: center;
+            
+    }
+
+    #insertn{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -135px;
+        margin-top: -40px;
+        text-align: center;
+            
+    }
+    #insertn1{
+    
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        margin-right: -130px;
+        margin-top: 120px;
+        text-align: center;
+            
+    }
+        
+        
     
     .recivex{
     
@@ -227,70 +327,7 @@
     margin-left: 7px;
     
     }
-    #insertk1{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: 210px;
-    margin-top: 68px;
-    text-align: center;
     
-    }
-    #insertk2{
-        
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        margin-right: -70px;
-        margin-top: 68px;
-        text-align: center; 
-    }
-    #insertk3{
-    
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        margin-right: -225px;
-        margin-top: -35px;
-        text-align: center; 
-    
-    }
-    #insertk4{
-    
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        margin-right: -456px;
-        margin-top: -10px;
-        text-align: center; 
-    }
-    #insertn1{
-        
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        margin-right: 55px;
-        margin-top: -50px;
-        text-align: center; 
-    }
-    #insertn2{
-        
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        margin-right: 75px;
-        margin-top: 68px;
-        text-align: center; 
-    }
-    #insertn3{
-        
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        margin-right: -370px;
-        margin-top: -10px;
-        text-align: center; 
-    }
     
     
     .btn-calcular{
@@ -343,6 +380,27 @@
     }
     
     @media screen and (max-width:767px){
+
+        .derechos{
+        
+        
+            position: absolute;
+            width: 100%;
+            height: 50px;
+            top: 126%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #92968E;
+            
+    }
+    
+    .derechos p{
+    
+        font-size: 15px;
+        margin-right: 40px;
+    
+    }
     
         .main-container{
     
@@ -457,7 +515,7 @@
                     background-color: #E7EDE1;
                     border-radius: 25px 25px 25px 25px;
                     box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
-                    width: 90%;
+                    width: 93%;
                     height: 300px;
                     margin-top: 20px;
                     margin-left: 15px;
@@ -471,83 +529,101 @@
                 #insertx{
     
                     position: absolute;
-                    width: 20px;
-                    height: 20px;
-                    margin-right: 280px;
-                    margin-top: 25px;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: 120px;
+                    margin-top: 8px;
                     text-align: center;
                     
-                    }
-                    #insertk1{
-                        
-                        position: absolute;
-                        width: 20px;
-                        height: 20px;
-                        margin-right: 146px;
-                        margin-top: 40px;
-                        text-align: center;
-                        
-                        }
-                    #insertk2{
-                        
-                        position: absolute;
-                        width: 20px;
-                        height: 20px;
-                        margin-right: -50px;
-                        margin-top: 45px;
-                        text-align: center;
-                            
-                            }
-                            #insertk3{
-                               
-                                position: absolute;
-                                width: 20px;
-                                height: 20px;
-                                margin-right: -160px;
-                                margin-top: -30px;
-                                text-align: center;
-                                    
-                                    }
-                                    #insertk4{
-                                        
-                                        position: absolute;
-                                        width: 20px;
-                                        height: 20px;
-                                        margin-right: -320px;
-                                        margin-top: -15px;
-                                        text-align: center;
-                                            
-                                            }
-                                            #insertn1{
-                                                
-                                                position: absolute;
-                                                width: 20px;
-                                                height: 20px;
-                                                margin-right: 40px;
-                                                margin-top: -40px;
-                                                text-align: center;
-                                                
-                                                }
-                                                #insertn2{
-                                                    
-                                                    position: absolute;
-                                                    width: 20px;
-                                                    height: 20px;
-                                                    margin-right:55px;
-                                                    margin-top: 45px;
-                                                    text-align: center;
-                                                    
-                                                    }
-                                                    #insertn3{
-                                                  
-                                                        position: absolute;
-                                                        width: 20px;
-                                                        height: 20px;
-                                                        margin-right: -255px;
-                                                        margin-top: -15px;
-                                                        text-align: center;
-                                                        
-                                                        }
+                }
+                #insertx1{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -25px;
+                    margin-top: -38px;
+                    text-align: center;
+                    
+                }
+
+                
+                #insertx2{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -230px;
+                    margin-top: -30px;
+                    text-align: center;
+                    
+                }
+                #insertk{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -25px;
+                    margin-top: -110px;
+                    text-align: center;
+                    
+                }
+                #insertk1{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -240px;
+                    margin-top: -110px;
+                    text-align: center;
+                    
+                }
+                #insertN{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -145px;
+                    margin-top: -113px;
+                    text-align: center;
+                    
+                }
+                #insertN1{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -133px;
+                    margin-top: 60px;
+                    text-align: center;
+                    
+                }
+                #insertn{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -135px;
+                    margin-top: -35px;
+                    text-align: center;
+                    
+                }
+                #insertn1{
+    
+                    position: absolute;
+                    width: 23px;
+                    height: 23px;
+                    margin-right: -133px;
+                    margin-top: 125px;
+                    text-align: center;
+                    
+                }
+
+
+
+
+                
+                    
                                                         .recivex{
     
                                                             position: absolute;
