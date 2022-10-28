@@ -1,4 +1,35 @@
 @media screen and (min-width:991px){
+body{
+
+        font-size: 20px;
+        background-color: #E7EDE1;  
+        
+}
+
+h1{
+        text-align: center;
+        margin-top: 15px;
+}
+    
+p{
+        margin-top: 22px;
+        margin-left: 45px;
+        font-size: 20px;
+}
+
+.derechos{
+margin-top: 85px;
+
+position: absolute;
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #92968E;
+
+}
+    
 #navbar{
 box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.64);
 margin-top: 17px;
@@ -7,9 +38,33 @@ margin-right: 5px;
 position: absolute;
 top: 0;
 width: 98%;
+}
+
+#navbar .toggle{
+
+    color: white;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0 10px;
+    line-height: 60px;
+    
+    display: none;
+    
+}
+
+#navbar .nav-item{
+
+padding: 0 10px;
 
 }
-#img2{display: none;}
+
+#navbar a:hover{
+
+    transform: scale(1.1,1.2);
+    transition: all 300ms;
+
+}
 
 .main-container{
 
@@ -22,69 +77,7 @@ height: 740px;
 
 }
 
-
-
-.alert{
-
-    
-    position: absolute;
-    top: 320px;
-    height: 50px;
-    width: 250px;
-    display: flex;
-    text-align: start;
-    align-items: center;
-    left: 290px;
-
-    }
-#alerta2{
-    position: absolute;
-    top: 320px;
-    height: 50px;
-    width: 250px;
-    display: flex;
-    text-align: start;
-    align-items: center;
-    left: 290px;
-
-}
-
-.alert > p{
-  font-size: 13px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.mensaje-alerta{
-
-display: none;
-
-}
-.mensaje-alerta2{
-
-    display: none;
-    
-    }
-
-.mensaje-alerta-show{
-
-display: block;
-
-}
-
-.mensaje-alerta2-show{
-
-    display: block;
-    
-    }
-
-a:hover{
-
-    transform: scale(1.1,1.2);
-    transition: all 300ms;
-
-}
-.panel-top{
+.main-container .panel-top{
     background-image: url("../images/background-top.png");
     background-repeat: no-repeat;  
     background-size: cover;
@@ -96,21 +89,132 @@ a:hover{
     display: flex;
     
 }
-.variables{
 
-background-color: #E7EDE1;
-border-radius: 25px 25px 25px 25px;
-box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
-width: 450px;
-height: 380px;
-margin-top: 147px;
-margin-left: 100px;
-margin-bottom: 147px;
-min-height: 330px;
+.main-container .panel-top .variables{
 
+    background-color: #E7EDE1;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
+    width: 450px;
+    height: 380px;
+    margin-top: 147px;
+    margin-left: 100px;
+    margin-bottom: 147px;
+    min-height: 330px;
+    
+    
+}
+.main-container .panel-top .variables h2{
+
+    margin-left: 20px;
+    margin-top: 15px;
 
 }
-.formula{
+
+.main-container .panel-top .variables .recivex{
+
+    position: absolute;
+    margin-bottom: 8px;
+    top: 330px;
+    left: 180px;
+    width: 100px;
+
+}
+
+.main-container .panel-top .variables .reciven{
+
+    position: absolute;
+    margin-bottom: 8px;
+    top: 385px;
+    left: 180px;
+    width: 100px;
+    
+}
+.main-container .panel-top .variables .recivep{
+position: absolute;
+margin-bottom: 8px;
+top: 280px;
+left: 180px;
+width: 100px;
+
+}
+
+.main-container .panel-top .variables .alert{
+
+    position: absolute;
+    top: 320px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    left: 290px;
+
+}
+.mensaje-alerta{
+
+    display: none;
+    
+}
+
+.mensaje-alerta2{
+
+    display: none;
+
+}
+
+.mensaje-alerta-show{
+
+    display: block;
+    
+}
+
+.mensaje-alerta2-show{
+
+    display: block;
+    
+}
+
+.main-container .panel-top .variables #alerta2{
+    position: absolute;
+    top: 320px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    left: 290px;
+
+}
+
+.main-container .panel-top .variables .alert > p{
+  font-size: 13px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main-container .panel-top .variables .btn-calcular{
+
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    
+}
+.main-container .panel-top .variables #boton1{
+    
+            width: 150px;
+            margin-left: 70px;
+    
+}
+.main-container .panel-top .variables #boton2{
+    
+            width: 150px;
+            margin-left: 15px;
+            margin-right: 70px; 
+    
+}
+    
+.main-container .panel-top .formula{
 background-color: #E7EDE1;
 border-radius: 25px 25px 25px 25px;
 box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
@@ -126,14 +230,94 @@ align-items: center;
 
 
 }
-.panel-bottom{
+
+.main-container .panel-top .formula #insertk{
+
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-right: 400px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+    
+    
+    
+.main-container .panel-top .formula #insertk1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-right: 210px;
+    margin-top: 68px;
+    text-align: center;
+    
+}
+.main-container .panel-top .formula #insertk2{
+        
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-right: -70px;
+        margin-top: 68px;
+        text-align: center; 
+}
+.main-container .panel-top .formula #insertk3{
+    
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-right: -225px;
+        margin-top: -35px;
+        text-align: center; 
+    
+}
+.main-container .panel-top .formula #insertk4{
+    
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-right: -456px;
+        margin-top: -10px;
+        text-align: center; 
+}
+.main-container .panel-top .formula #insertn1{
+        
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-right: 55px;
+        margin-top: -50px;
+        text-align: center; 
+}
+.main-container .panel-top .formula #insertn2{
+        
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-right: 75px;
+        margin-top: 68px;
+        text-align: center; 
+}
+.main-container .panel-top .formula #insertn3{
+        
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-right: -370px;
+        margin-top: -10px;
+        text-align: center; 
+}
+.main-container .panel-top .formula #img2{display: none;}
+
+.main-container .panel-bottom{
 background-color: #E7EDE1;
 box-shadow: 0px -5px 10px -3px rgba(0,0,0,0.67);
 border-radius: 10px 10px 0px 0px ;
 padding-left: 20px;
 display: flex;
 justify-content: left;
-
 width: 100%;
 height: 180px;
 margin-top: 45px;
@@ -143,185 +327,20 @@ padding-top: 15px;
 
 
 }
-#insertk{
 
-
-position: absolute;
-width: 30px;
-height: 30px;
-margin-right: 400px;
-margin-top: 40px;
-text-align: center;
-
-}
-
-.recivex{
-
-    position: absolute;
-    margin-bottom: 8px;
-    top: 330px;
-    left: 180px;
-    width: 100px;
-
-}
-.reciven{
-
-    position: absolute;
-    margin-bottom: 8px;
-    top: 385px;
-    left: 180px;
-    width: 100px;
-    
-    }
-.recivep{
-position: absolute;
-margin-bottom: 8px;
-top: 280px;
-left: 180px;
-width: 100px;
-}
-
-h1{
-    text-align: center;
-    margin-top: 15px;
-}
-h2{
-
-    margin-left: 20px;
-    margin-top: 15px;
-
-}
-p{
-    margin-top: 22px;
-    margin-left: 45px;
-    font-size: 20px;
-}
-
-#rdecimal{
+.main-container .panel-bottom #rdecimal{
 
     margin-top: 70px;
     margin-left: 250px;
 }
-#rporcentaje{
+.main-container .panel-bottom #rporcentaje{
     margin-top: 70px;
 }
-.results{
+.main-container .panel-bottom .results{
 
 height: 40px;
 margin-top: 70px;
 margin-left: 7px;
-
-}
-#insertk1{
-position: absolute;
-width: 30px;
-height: 30px;
-margin-right: 210px;
-margin-top: 68px;
-text-align: center;
-
-}
-#insertk2{
-    
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: -70px;
-    margin-top: 68px;
-    text-align: center; 
-}
-#insertk3{
-
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: -225px;
-    margin-top: -35px;
-    text-align: center; 
-
-}
-#insertk4{
-
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: -456px;
-    margin-top: -10px;
-    text-align: center; 
-}
-#insertn1{
-    
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: 55px;
-    margin-top: -50px;
-    text-align: center; 
-}
-#insertn2{
-    
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: 75px;
-    margin-top: 68px;
-    text-align: center; 
-}
-#insertn3{
-    
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: -370px;
-    margin-top: -10px;
-    text-align: center; 
-}
-
-
-.btn-calcular{
-
-display: flex;
-margin-top: 35px;
-margin-bottom: 20px;
-
-}
-#boton1{
-
-        width: 150px;
-        margin-left: 70px;
-
-    }
-#boton2{
-
-        width: 150px;
-        margin-left: 15px;
-        margin-right: 70px; 
-
-    }
-
-.toggle{
-
-    color: white;
-    background: none;
-    border: none;
-    font-size: 25px;
-    padding: 0 10px;
-    line-height: 60px;
-    
-    display: none;
-    
-    }
-
-.nav-item{
-
-padding: 0 10px;
-
-}
-
-body{
-
-font-size: 20px;
-background-color: #E7EDE1;  
 
 }
 
@@ -329,261 +348,294 @@ background-color: #E7EDE1;
 
 @media screen and (max-width:767px){
 
-    .main-container{
-
-        max-width: 100%;
-        max-height: 100%; 
+.derechos{
+        
+        
+        position: absolute;
         width: 100%;
-        height: 100%;
+        height: 50px;
+        top: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #92968E;
         
-        }
+}
+
+body{   
+
+background-color: #E7EDE1;  
         
+}
+
 h1{
-    text-align: center;
-    margin-top: 15px;
+text-align: center;
+margin-top: 15px;
 }
 h2{
-
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-
+    
+margin-left: 20px;
+margin-top: 20px;
+font-size: 20px;
+    
 }
 p{
-    margin-top: 23px;
-    margin-left: 45px;
-    font-size: 20px;
+margin-top: 23px;
+margin-left: 45px;
+font-size: 20px;
 }
 
+.main-container{
 
-        .panel-top{
+max-width: 100%;
+max-height: 100%; 
+width: 100%;
+height: 100%;
+        
+}
+        
+.main-container .panel-top{
 
-            background-image: url("../images/background-top.png");
-            background-repeat: no-repeat;  
-            background-size: cover;
-            position: absolute;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            padding-bottom: 30px;
+background-image: url("../images/background-top.png");
+background-repeat: no-repeat;  
+background-size: cover;
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+padding-bottom: 30px;
             
-        }
+}
        
-        .variables{
+.main-container .panel-top .variables{
 
-            background-color: #E7EDE1;
-            border-radius: 25px 25px 25px 25px;
-            box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
-            width: 85%;
-            height: 340px;
-            margin-top: 100px;
-            margin-left: 30px;
-            padding-bottom: 20px;
+background-color: #E7EDE1;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
+width: 85%;
+height: 340px;
+margin-top: 100px;
+margin-left: 30px;
+padding-bottom: 20px;
             
-            }
-            .alert{
+}
+
+.main-container .panel-top .variables .recivep{
+position: absolute;
+margin-bottom: 10px;
+top: 220px;
+left: 100px;
+width: 100px;
+}
+       
+.main-container .panel-top .variables .recivex{
+    
+position: absolute;
+margin-bottom: 10px;
+top: 268px;
+left: 100px;
+width: 100px;
+                    
+}
+
+.main-container .panel-top .variables .reciven{
+                    
+position: absolute;
+margin-bottom: 10px;
+top: 318px;
+left: 100px;
+width: 100px;
+                    
+}
+                        
+.main-container .panel-top .variables .btn-calcular{
+    
+display: flex;
+margin-top: 10px;
+margin-bottom: 10px;
+        
+}
+
+.main-container .panel-top .variables #boton1{
+    
+width: 100px;
+margin-left: 60px;
+margin-top: 15px;
+                
+}
+    
+.main-container .panel-top .variables #boton2{
+                
+width: 100px;
+margin-left: 15px;
+margin-right: 40px; 
+margin-top: 15px;
+                
+}
 
     
-                position: absolute;
-                top: 110px;
-                height: 50px;
-                width: 300px;
-                display: flex;
-                text-align: start;
-                align-items: center;
-                left: 45px;
+.main-container .panel-top .variables .alert{
+
+    
+position: absolute;
+top: 110px;
+height: 50px;
+width: 300px;
+display: flex;
+text-align: start;
+align-items: center;
+left: 45px;
               
-                }
-            #alerta2{
-                position: absolute;
-                top: 110px;
-                height: 50px;
-                width: 300px;
-                display: flex;
-                text-align: start;
-                align-items: center;
-                left: 45px;
+}
+.main-container .panel-top .variables #alerta2{
+position: absolute;
+top: 110px;
+height: 50px;
+width: 300px;
+display: flex;
+text-align: start;
+align-items: center;
+left: 45px;
                
             
-            }
+}
             
-            .alert > p{
-              font-size: 13px;
-              margin-left: 0;
-              margin-right: 0;
-            }
+.main-container .panel-top .variables .alert > p{
+font-size: 13px;
+margin-left: 0;
+margin-right: 0;
+}
             
-            .mensaje-alerta{
+.mensaje-alerta{
             
-            display: none;
+display: none;
             
-            }
-            .mensaje-alerta2{
-            
-                display: none;
-                
-                }
-            
-            .mensaje-alerta-show{
-            
-            display: block;
-            
-            }
-            
-            .mensaje-alerta2-show{
-            
-                display: block;
-                
-                }
-            .formula{
-                background-color: #E7EDE1;
-                border-radius: 25px 25px 25px 25px;
-                box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
-                width: 90%;
-                height:40%;
-                margin-top: 20px;
-                margin-left: 20px;
-                margin-right: 25px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                }
-         
-            #insertk{
-
-                position: absolute;
-                width: 20px;
-                height: 20px;
-                margin-right: 280px;
-                margin-top: 25px;
-                text-align: center;
-                
-                }
-                #insertk1{
-                    
-                    position: absolute;
-                    width: 20px;
-                    height: 20px;
-                    margin-right: 146px;
-                    margin-top: 40px;
-                    text-align: center;
-                    
-                    }
-                #insertk2{
-                    
-                    position: absolute;
-                    width: 20px;
-                    height: 20px;
-                    margin-right: -50px;
-                    margin-top: 45px;
-                    text-align: center;
-                        
-                        }
-                        #insertk3{
-                           
-                            position: absolute;
-                            width: 20px;
-                            height: 20px;
-                            margin-right: -160px;
-                            margin-top: -30px;
-                            text-align: center;
-                                
-                                }
-                                #insertk4{
-                                    
-                                    position: absolute;
-                                    width: 20px;
-                                    height: 20px;
-                                    margin-right: -320px;
-                                    margin-top: -15px;
-                                    text-align: center;
-                                        
-                                        }
-                                        #insertn1{
-                                            
-                                            position: absolute;
-                                            width: 20px;
-                                            height: 20px;
-                                            margin-right: 40px;
-                                            margin-top: -40px;
-                                            text-align: center;
-                                            
-                                            }
-                                            #insertn2{
-                                                
-                                                position: absolute;
-                                                width: 20px;
-                                                height: 20px;
-                                                margin-right:55px;
-                                                margin-top: 45px;
-                                                text-align: center;
-                                                
-                                                }
-                                                #insertn3{
-                                              
-                                                    position: absolute;
-                                                    width: 20px;
-                                                    height: 20px;
-                                                    margin-right: -255px;
-                                                    margin-top: -15px;
-                                                    text-align: center;
-                                                    
-                                                    }
-.recivep{
-    position: absolute;
-    margin-bottom: 10px;
-    top: 220px;
-    left: 100px;
-    width: 100px;
 }
 
-
-            .recivex{
-
-                position: absolute;
-                margin-bottom: 10px;
-                top: 268px;
-                left: 100px;
-                width: 100px;
+.mensaje-alerta2{
+            
+display: none;
                 
-                }
-                .reciven{
+}
+            
+.mensaje-alerta-show{
+            
+display: block;
+            
+}
+            
+.mensaje-alerta2-show{
+            
+display: block;
                 
-                    position: absolute;
-                    margin-bottom: 10px;
-                    top: 318px;
-                    left: 100px;
-                    width: 100px;
+}
+
+.main-container .panel-top .formula{
+
+background-color: #E7EDE1;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 0px 0px 8px -2px rgba(0,0,0,1);
+width: 90%;
+height:40%;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+         
+.main-container .panel-top .formula #insertk{
+
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right: 280px;
+margin-top: 25px;
+text-align: center;
+                
+}
+
+.main-container .panel-top .formula #insertk1{
                     
-                    }
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right: 146px;
+margin-top: 40px;
+text-align: center;
                     
-.btn-calcular{
+}
 
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-    }
-            #boton1{
+.main-container .panel-top .formula #insertk2{
+                    
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right: -50px;
+margin-top: 45px;
+text-align: center;
+                        
+}
 
-                width: 100px;
-                margin-left: 60px;
-                margin-top: 15px;
-            
-            }
-            #boton2{
-            
-                width: 100px;
-                margin-left: 15px;
-                margin-right: 40px; 
-                margin-top: 15px;
-            
-            }
+.main-container .panel-top .formula #insertk3{
+                           
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right: -160px;
+margin-top: -30px;
+text-align: center;
+                                
+}
 
-            
-.panel-bottom{
+.main-container .panel-top .formula #insertk4{
+                                    
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right: -320px;
+margin-top: -15px;
+text-align: center;
+                                        
+}
+
+.main-container .panel-top .formula #insertn1{
+                                            
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right: 40px;
+margin-top: -40px;
+text-align: center;
+                                            
+}
+
+.main-container .panel-top .formula #insertn2{
+                                                
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right:55px;
+margin-top: 45px;
+text-align: center;
+                                                
+}
+
+.main-container .panel-top .formula #insertn3{
+                                              
+position: absolute;
+width: 20px;
+height: 20px;
+margin-right: -255px;
+margin-top: -15px;
+text-align: center;
+                                                    
+}
+          
+.main-container .panel-bottom{
 
 background-color: #E7EDE1;
 box-shadow: 0px -6px 6px -5px rgba(0,0,0,0.65);
@@ -599,25 +651,36 @@ top: 70%;
 
 
 }
-#rdecimal{
 
-    margin-top: 20px;
-    margin-left: 63px;
+.main-container .panel-bottom #rdecimal{
+
+margin-top: 20px;
+margin-left: 63px;
+
 }
-#rporcentaje{
-    margin-top: 10px;
-    margin-left:40px;
+
+.main-container .panel-bottom #rporcentaje{
+    
+margin-top: 10px;
+margin-left:40px;
+
 }
-#resul1{
+
+.main-container .panel-bottom #resul1{
+
 position: absolute;
 top: 68px;
 left: 37%;
+
 }
-#resul2{
-    position: absolute;
-    top: 110px;
-    left: 37%;
-    }
+
+.main-container .panel-bottom #resul2{
+
+position: absolute;
+top: 110px;
+left: 37%;
+
+}
 
 #navbar{
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.64);
@@ -691,10 +754,6 @@ right: 0;
     background-color: #333333;
     
 }
-body{   
 
-    background-color: #E7EDE1;  
-    
-    }
 
 }

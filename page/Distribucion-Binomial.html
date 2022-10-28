@@ -12,28 +12,50 @@
       crossorigin="anonymous"
     ></script>
     <link rel="icon" type="image/png" href="/images/icon/favicon.png" />
+
+    <!--Titulo de la pestaña-->
+
     <title>Distribucion Binomial</title>
   </head>
+
   <body>
+    <!--Contenedor principal de la web-->
+
     <div class="main-container">
+      <!--Contenedor superior-->
+
       <div class="panel-top">
+        <!--Contenedor de solicitud de variables-->
+
         <div class="variables">
           <h1>Distribucion Binomial</h1>
+
+          <!--Mensajes de las variables requeridas-->
+
           <h2>Ingrese las variables:</h2>
           <p>p :</p>
+          <p>X :</p>
+          <p>n :</p>
+
+          <!--Primera alerta en caso de que el numero ingresado en p sea incorrecto-->
+
           <div id="alerta" class="alert">
             <p id="msg" class="mensaje-alerta">
               p es una probabilidad, por tanto debe ingresar un numero entre 0 y
               1.
             </p>
           </div>
+
+          <!--Segunda alerta en caso de que se intente hacer un calculo sin haber ingresado todas las variables-->
+
           <div id="alerta2" class="alert">
             <p id="msg2" class="mensaje-alerta2">
               Para realizar el calculo por favor ingrese las variables!
             </p>
           </div>
-          <p>X :</p>
-          <p>n :</p>
+
+          <!--Inputs para almacenar las variables requeridas-->
+
           <input
             oninput="{alerta(),cerrara2();}"
             class="recivep"
@@ -53,6 +75,8 @@
             id="rn"
           />
 
+          <!--Boton para hacer el calculo-->
+
           <div class="btn-calcular">
             <button
               onclick="{solucion();}"
@@ -62,6 +86,9 @@
             >
               Calcular
             </button>
+
+            <!--Boton para limpiar todos los campos de texto-->
+
             <button
               onclick="{limpiar();}"
               id="boton2"
@@ -72,9 +99,17 @@
             </button>
           </div>
         </div>
+
+        <!--Contenedor de la formula-->
+
         <div class="formula">
+          <!--Imagenes tanto para pc como para movil-->
+
           <img id="img1" src="../images/formula_binomial.png" alt="" />
           <img id="img2" src="../images/formula_binomial_movil.png" alt="" />
+
+          <!--Inputs para mostrar en tiempo real las variables en la formula-->
+
           <input class="insertx" type="text" id="insertk" readonly />
           <input class="insertx" type="text" id="insertk1" readonly />
           <input class="insertx" type="text" id="insertk2" readonly />
@@ -85,6 +120,9 @@
           <input class="insertn" type="text" id="insertn3" readonly />
         </div>
       </div>
+
+      <!--Panel inferior-->
+
       <div class="panel-bottom">
         <h1>Resultados :</h1>
         <p id="rdecimal">Decimal :</p>
@@ -93,24 +131,48 @@
         <input id="resul2" class="results" type="text" readonly />
       </div>
     </div>
+    <footer>
+      <div class="derechos">
+        <p>
+          Copyrigth <i class="fa-solid fa-copyright"></i> 2022 Felipe Berrio
+        </p>
+      </div>
+    </footer>
+
+    <!--Navbar fuera del main container para ajustarla por encima de todo-->
+
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
+        <!--Boton para ver la navbar adecuada para celular-->
+
         <button class="toggle">
           <i id="bars" class="fas fa-bars"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav me-auto">
+            <!--Primer item en la navbar-->
+
             <li id="nav-item1" class="nav-item">
               <a class="nav-link active" href="../index.html">Inicio </a>
             </li>
+
+            <!--Segundo item en la navbar-->
+
             <li class="nav-item">
               <a class="nav-link" href="./Distribucion-Hipergeometrica.html"
                 >Distribucion Hipergeometrica</a
               >
             </li>
+
+            <!--Tercer item en la navbar-->
+
             <li class="nav-item">
               <a class="nav-link" href="#">Distribucion Uniforme</a>
             </li>
+
+            <!--Cuarto item en la navbar-->
+
             <li class="nav-item">
               <a class="nav-link" href="#">Distribucion Exponencial</a>
             </li>
