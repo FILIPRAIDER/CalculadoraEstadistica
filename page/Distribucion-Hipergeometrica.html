@@ -24,10 +24,37 @@
           <p>K :</p>
           <p>N :</p>
           <p>n :</p>
-          <input oninput="{mostrar()}" class="recivex" type="number" id="rx" />
-          <input oninput="{mostrar()}" class="recivek" type="number" id="rk" />
-          <input oninput="{mostrar()}" class="reciveN" type="number" id="rN" />
-          <input oninput="{mostrar()}" class="reciven" type="number" id="rn" />
+
+          <div id="alerta2" class="alert">
+            <p id="msg2" class="mensaje-alerta2">
+              Para realizar el calculo por favor ingrese las variables!
+            </p>
+          </div>
+
+          <input
+            oninput="{mostrar(),cerrara2()}"
+            class="recivex"
+            type="number"
+            id="rx"
+          />
+          <input
+            oninput="{mostrar(),cerrara2()}"
+            class="recivek"
+            type="number"
+            id="rk"
+          />
+          <input
+            oninput="{mostrar(),cerrara2()}"
+            class="reciveN"
+            type="number"
+            id="rN"
+          />
+          <input
+            oninput="{mostrar(),cerrara2()}"
+            class="reciven"
+            type="number"
+            id="rn"
+          />
           <div class="btn-calcular">
             <button
               onclick="{solucion();}"

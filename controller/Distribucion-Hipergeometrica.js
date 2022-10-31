@@ -27,6 +27,15 @@ function mostrar() {
 
 }
 
+function cerrara2() {
+
+    document.getElementById("msg2").classList.remove("mensaje-alerta2-show");
+    document.getElementById("alerta2").classList.remove("alert-danger");
+
+
+}
+
+
 function limpiar() {
     document.getElementById("rx").value = "";
     document.getElementById("rk").value = "";
@@ -61,19 +70,24 @@ function factorial(n) {
 
 function solucion() {
 
-    var x = parseFloat(document.getElementById("rx").value);
-    var k = parseFloat(document.getElementById("rk").value);
-    var n = parseFloat(document.getElementById("rN").value);
-    var n1 = parseFloat(document.getElementById("rn").value);
+    var x = document.getElementById("rx").value;
+    var k = document.getElementById("rk").value;
+    var n = document.getElementById("rN").value;
+    var n1 = document.getElementById("rn").value;
 
     if (x != "" && k != "" && n != "" && n1 != "") {
 
-        p = parseFloat(document.getElementById("rp").value);
-        x = parseFloat(document.getElementById("rx").value);
-        n = parseFloat(document.getElementById("rn").value);
+        var x = parseFloat(document.getElementById("rx").value);
+        var k = parseFloat(document.getElementById("rk").value);
+        var n = parseFloat(document.getElementById("rN").value);
+        var n1 = parseFloat(document.getElementById("rn").value);
 
-        var solucion = Number((factorial(n) / (factorial(x) * factorial(n - x))) * exponente(p, x) * exponente(1 - p, n - x)).toFixed(4);
+        var res = n - k;
+        var res2 = n1 - x;
 
+
+        var solucion = Number((((factorial(k)) / (factorial(k - x) * factorial(x))) * ((factorial(res)) / (factorial(res - res2) * factorial(res2)))) / (((factorial(n)) / (factorial(n - n1) * factorial(n1))))).toFixed(4);
+        console.log(solucion);
         var solucion_porcen = Number(solucion * 100).toFixed(2);
 
         document.getElementById("resul1").value = solucion;
