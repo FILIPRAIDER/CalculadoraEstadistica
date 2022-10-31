@@ -354,10 +354,11 @@ margin-left: 7px;
         position: absolute;
         width: 100%;
         height: 50px;
-        top: 126%;
+        top: 140%;
         display: flex;
         justify-content: center;
         align-items: center;
+        
         background-color: #92968E;
         
 }
