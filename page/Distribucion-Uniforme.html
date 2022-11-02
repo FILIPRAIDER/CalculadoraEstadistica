@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../styles/Distribucion-Binomial.css" />
-    <script defer src="../controller/Distribucion-Binomial.js"></script>
+    <link rel="stylesheet" href="../styles/Distribucion-Uniforme.css" />
+    <script defer src="../controller/Distribucion-Uniforme.js"></script>
     <script
       src="https://kit.fontawesome.com/1f67a73ce5.js"
       crossorigin="anonymous"
@@ -28,15 +28,14 @@
         <!--Contenedor de solicitud de variables-->
 
         <div class="variables">
-          <h1>Distribucion Binomial</h1>
+          <h1>Distribucion Uniforme</h1>
 
           <!--Mensajes de las variables requeridas-->
 
           <h2>Ingrese las variables:</h2>
-          <p>p :</p>
-          <p>X :</p>
-          <p>n :</p>
-
+          <p>a :</p>
+          <p>b :</p>
+          <p>x :</p>
           <!--Primera alerta en caso de que el numero ingresado en p sea incorrecto-->
 
           <div id="alerta" class="alert">
@@ -56,24 +55,9 @@
 
           <!--Inputs para almacenar las variables requeridas-->
 
-          <input
-            oninput="{alerta(),cerrara2();}"
-            class="recivep"
-            type="number"
-            id="rp"
-          />
-          <input
-            oninput="{mostrar(),cerrara2();}"
-            class="recivex"
-            type="number"
-            id="rx"
-          />
-          <input
-            oninput="{mostrar(),cerrara2();}"
-            class="reciven"
-            type="number"
-            id="rn"
-          />
+          <input oninput="{mostrar()}" class="recivea" type="number" id="ra" />
+          <input oninput="{mostrar()}" class="reciveb" type="number" id="rb" />
+          <input oninput="{mostrar()}" class="recivex" type="number" id="rx" />
 
           <!--Boton para hacer el calculo-->
 
@@ -101,23 +85,32 @@
         </div>
 
         <!--Contenedor de la formula-->
+        <div class="grafica">
+          <img class="img1" id="img1" src="../images/uniforme1.png" alt="" />
+          <img id="img2" src="../images/uniforme1_movil.png" alt="" />
+          <input class="inserta" type="text" id="inserta" readonly />
+          <input class="insertb" type="text" id="insertb" readonly />
+        </div>
 
         <div class="formula">
-          <!--Imagenes tanto para pc como para movil-->
-
-          <img id="img1" src="../images/formula_binomial.png" alt="" />
-          <img id="img2" src="../images/formula_binomial_movil.png" alt="" />
-
           <!--Inputs para mostrar en tiempo real las variables en la formula-->
-
-          <input class="insertx" type="text" id="insertk" readonly />
-          <input class="insertx" type="text" id="insertk1" readonly />
-          <input class="insertx" type="text" id="insertk2" readonly />
-          <input class="insertx" type="text" id="insertk3" readonly />
-          <input class="insertx" type="text" id="insertk4" readonly />
-          <input class="insertn" type="text" id="insertn1" readonly />
-          <input class="insertn" type="text" id="insertn2" readonly />
-          <input class="insertn" type="text" id="insertn3" readonly />
+          <img id="img3" src="../images/funcion_de_densidad.png" alt="" />
+          <img id="img4" src="../images/integral.png" alt="" />
+          <img id="img5" src="../images/integral1.png" alt="" />
+          <img id="img6" src="../images/resultadouniforme.png" alt="" />
+          <input class="inserta" type="text" id="inserta1" readonly />
+          <input class="insertb" type="text" id="insertb1" readonly />
+          <input class="insertf" type="text" id="insertf" readonly />
+          <input class="insertli" type="text" id="insertli" readonly />
+          <input class="insertli" type="text" id="insertls" readonly />
+          <input class="insertli" type="text" id="insertli1" readonly />
+          <input class="insertli" type="text" id="insertli2" readonly />
+          <input class="insertli" type="text" id="insertls1" readonly />
+          <input class="insertli" type="text" id="insertls2" readonly />
+          <input class="insertf" type="text" id="insertf1" readonly />
+          <input class="insertf" type="text" id="insertf2" readonly />
+          <input class="insertm1" type="text" id="insertm1" readonly />
+          <input class="insertm2" type="text" id="insertm2" readonly />
         </div>
       </div>
 
