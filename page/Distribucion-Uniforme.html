@@ -39,10 +39,7 @@
           <!--Primera alerta en caso de que el numero ingresado en p sea incorrecto-->
 
           <div id="alerta" class="alert">
-            <p id="msg" class="mensaje-alerta">
-              p es una probabilidad, por tanto debe ingresar un numero entre 0 y
-              1.
-            </p>
+            <p id="msg" class="mensaje-alerta">a no puede ser mayor que b!</p>
           </div>
 
           <!--Segunda alerta en caso de que se intente hacer un calculo sin haber ingresado todas las variables-->
@@ -55,15 +52,30 @@
 
           <!--Inputs para almacenar las variables requeridas-->
 
-          <input oninput="{mostrar()}" class="recivea" type="number" id="ra" />
-          <input oninput="{mostrar()}" class="reciveb" type="number" id="rb" />
-          <input oninput="{mostrar()}" class="recivex" type="number" id="rx" />
+          <input
+            oninput="{alerta() , mostrar(), cerrara2()}"
+            class="recivea"
+            type="number"
+            id="ra"
+          />
+          <input
+            oninput="{alerta() , mostrar(), cerrara2()}"
+            class="reciveb"
+            type="number"
+            id="rb"
+          />
+          <input
+            oninput="{mostrar(), cerrara2()}"
+            class="recivex"
+            type="number"
+            id="rx"
+          />
 
           <!--Boton para hacer el calculo-->
 
           <div class="btn-calcular">
             <button
-              onclick="{solucion();}"
+              onclick="{solucion()}"
               id="boton1"
               type="button"
               class="btn btn-success"

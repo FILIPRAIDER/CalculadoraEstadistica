@@ -191,13 +191,13 @@
     .main-container .panel-top .variables .alert{
     
         position: absolute;
-        top: 320px;
+        top: 280px;
         height: 50px;
-        width: 250px;
+        width: 200px;
         display: flex;
         text-align: start;
         align-items: center;
-        left: 290px;
+        left: 250px;
     
     }
     .mensaje-alerta{
@@ -209,6 +209,7 @@
     .mensaje-alerta2{
     
         display: none;
+        
     
     }
     
@@ -223,16 +224,19 @@
         display: block;
         
     }
+
+
     
     .main-container .panel-top .variables #alerta2{
+
         position: absolute;
         top: 320px;
         height: 50px;
-        width: 250px;
+        width: 230px;
         display: flex;
         text-align: start;
         align-items: center;
-        left: 290px;
+        left: 230px;
     
     }
     
@@ -329,9 +333,9 @@
     .main-container .panel-top .formula #insertf{
     
         position: absolute;
-        width: 25px;
+        width: 45px;
         height: 25px;
-        margin-right: -200px;
+        margin-right: -215px;
         margin-top: -245px;
         text-align: center;
         
@@ -339,9 +343,9 @@
     .main-container .panel-top .formula #insertf1{
     
         position: absolute;
-        width: 25px;
+        width: 40px;
         height: 25px;
-        margin-right: -5px;
+        margin-right: 10px;
         margin-top: 125px;
         text-align: center;
         
@@ -349,7 +353,7 @@
     .main-container .panel-top .formula #insertf2{
     
         position: absolute;
-        width: 25px;
+        width: 40px;
         height: 25px;
         margin-right: -170px;
         margin-top: 125px;
@@ -403,7 +407,7 @@
         width: 25px;
         height: 25px;
         margin-right: 50px;
-        margin-top: 85px;
+        margin-top: 70px;
         text-align: center;
         
     } 
@@ -422,7 +426,7 @@
     .main-container .panel-top .formula #insertm1{
     
         position: absolute;
-        width: 25px;
+        width: 55px;
         height: 25px;
         margin-right: -70px;
         margin-top: 290px;
@@ -432,7 +436,7 @@
     .main-container .panel-top .formula #insertm2{
     
         position: absolute;
-        width: 25px;
+        width: 55px;
         height: 25px;
         margin-right: -210px;
         margin-top: 290px;
