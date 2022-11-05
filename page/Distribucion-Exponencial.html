@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../styles/Distribucion-Binomial.css" />
-    <script defer src="../controller/Distribucion-Binomial.js"></script>
+    <link rel="stylesheet" href="../styles/Distribucion-Exponencial.css" />
+    <script defer src="../controller/Distribucion-Exponencial.js"></script>
     <script
       src="https://kit.fontawesome.com/1f67a73ce5.js"
       crossorigin="anonymous"
@@ -15,7 +15,7 @@
 
     <!--Titulo de la pestaña-->
 
-    <title>Distribucion Binomial</title>
+    <title>Distribucion Exponencial</title>
   </head>
 
   <body>
@@ -28,14 +28,13 @@
         <!--Contenedor de solicitud de variables-->
 
         <div class="variables">
-          <h1>Distribucion Binomial</h1>
+          <h1>Distribucion Exponencial</h1>
 
           <!--Mensajes de las variables requeridas-->
 
           <h2>Ingrese las variables:</h2>
-          <p>p :</p>
           <p>X :</p>
-          <p>n :</p>
+          <p>E :</p>
 
           <!--Primera alerta en caso de que el numero ingresado en p sea incorrecto-->
 
@@ -57,12 +56,6 @@
           <!--Inputs para almacenar las variables requeridas-->
 
           <input
-            oninput="{alerta(),cerrara2();}"
-            class="recivep"
-            type="number"
-            id="rp"
-          />
-          <input
             oninput="{mostrar(),cerrara2();}"
             class="recivex"
             type="number"
@@ -70,9 +63,9 @@
           />
           <input
             oninput="{mostrar(),cerrara2();}"
-            class="reciven"
+            class="reciveE"
             type="number"
-            id="rn"
+            id="re"
           />
 
           <!--Boton para hacer el calculo-->
@@ -105,19 +98,13 @@
         <div class="formula">
           <!--Imagenes tanto para pc como para movil-->
 
-          <img id="img1" src="../images/formula_binomial.png" alt="" />
-          <img id="img2" src="../images/formula_binomial_movil.png" alt="" />
+          <img id="img1" src="../images/formula_exponencial.png" alt="" />
+          <img id="img3" src="../images/formula_exponencial2.png" alt="" />
+          <img id="img2" src="../images/formula_exponencial_movil.png" alt="" />
 
           <!--Inputs para mostrar en tiempo real las variables en la formula-->
 
-          <input class="insertx" type="text" id="insertk" readonly />
-          <input class="insertx" type="text" id="insertk1" readonly />
-          <input class="insertx" type="text" id="insertk2" readonly />
-          <input class="insertx" type="text" id="insertk3" readonly />
-          <input class="insertx" type="text" id="insertk4" readonly />
-          <input class="insertn" type="text" id="insertn1" readonly />
-          <input class="insertn" type="text" id="insertn2" readonly />
-          <input class="insertn" type="text" id="insertn3" readonly />
+          <input class="insertx" type="text" id="insertx1" readonly />
         </div>
       </div>
 
@@ -160,24 +147,24 @@
             <!--Segundo item en la navbar-->
 
             <li class="nav-item">
-              <a class="nav-link" href="./Distribucion-Hipergeometrica.html"
-                >Distribucion Hipergeometrica</a
+              <a class="nav-link" href="./Distribucion-Binomial.html"
+                >Distribucion Binomial</a
               >
             </li>
 
             <!--Tercer item en la navbar-->
 
             <li class="nav-item">
-              <a class="nav-link" href="./Distribucion-Uniforme.html"
-                >Distribucion Uniforme</a
+              <a class="nav-link" href="./Distribucion-Hipergeometrica.html"
+                >Distribucion Hipergeometrica</a
               >
             </li>
 
             <!--Cuarto item en la navbar-->
 
             <li class="nav-item">
-              <a class="nav-link" href="./Distribucion-Exponencial.html"
-                >Distribucion Exponencial</a
+              <a class="nav-link" href="./Distribucion-Uniforme.html"
+                >Distribucion Uniforme</a
               >
             </li>
           </ul>
