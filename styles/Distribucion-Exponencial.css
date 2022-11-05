@@ -522,7 +522,7 @@ top: 200px;
     position: absolute;
     width: 27px;
     height: 27px;
-    margin-right: 145px;
+    margin-right: 175px;
     margin-top: 57px;
     text-align: center;
                     
@@ -533,7 +533,7 @@ top: 200px;
         position: absolute;
         width: 27px;
         height: 27px;
-        margin-right: -300px;
+        margin-right: -270px;
         margin-top: 35px;
         text-align: center;
                         
@@ -544,7 +544,7 @@ top: 200px;
         position: absolute;
         width: 27px;
         height: 27px;
-        margin-right: -230px;
+        margin-right: -200px;
         margin-top: 35px;
         text-align: center;
                         
@@ -620,7 +620,7 @@ top: 200px;
             }
             .main-container .panel-top .formula #img3{
 
-       margin-left: 30px;
+       margin-left: 0px;
                margin-top: 50px;
             
                 
