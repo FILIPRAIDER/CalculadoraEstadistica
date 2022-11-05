@@ -102,8 +102,8 @@ function mostrar() {
         document.getElementById("insertf").value = f;
         document.getElementById("insertf1").value = f;
         document.getElementById("insertf2").value = f;
-        document.getElementById("insertm1").value = f + "(" + x + ")";
-        document.getElementById("insertm2").value = f + "(" + b + ")";
+        document.getElementById("insertm1").value = f + "(" + b + ")";
+        document.getElementById("insertm2").value = f + "(" + x + ")";
 
     } else {
 
