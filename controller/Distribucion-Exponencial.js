@@ -55,21 +55,32 @@ function exponente(n, e) {
 
 function solucion() {
 
+    //aca recibimos los numeros ingresados por el usuario y los guardamos en variables 
+
     var x = document.getElementById("rx").value;
     var e = document.getElementById("re").value;
 
+    //aca realizamos una pequeña validacion para asegurarnos que el usuario este ingresando todos los datos requeridos
+
     if (x != "" && e != "") {
 
+        //aca recibimos los numeros ingresados por el usuario y los guardamos en variables 
 
         x = parseFloat(document.getElementById("rx").value);
         e = parseFloat(document.getElementById("re").value);
 
+        //aca simplemente escribimos la formula teniendo en cuenta los parentesis y diferentes signos usados en este lenguaje
 
         var eu = 2.7182;
 
         var solucion = Number(1 - (1 - eu ** (-1 / e * x))).toFixed(2);
 
+        //aca tomamos la solucion y la multiplicamos por 100 para obtener el resultado en porcentaje
+
         var solucion_porcen = Number(solucion * 100).toFixed(2);
+
+        //y por ultimo tomamos tanto la solucion como la solucion en porcentaje y las mostramos en los respectivos inputs
+
 
         document.getElementById("resul1").value = solucion;
         document.getElementById("resul2").value = solucion_porcen + "%";
