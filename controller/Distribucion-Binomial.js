@@ -25,17 +25,6 @@ function factorial(n) {
 
 }
 
-function exponente(n, e) {
-
-    var total = n;
-
-    for (var i = 1; i < e; i++) {
-        total = total * n;
-    }
-
-    return Number(total);
-}
-
 function mostrar() {
     var p = parseFloat(document.getElementById("rp").value);
     var x = parseFloat(document.getElementById("rx").value) || 0;
@@ -76,13 +65,21 @@ function solucion() {
 
     if (p != "" && x != "" && n != "") {
 
+        //aca recibimos los numeros ingresados por el usuario y los guardamos en variables 
+
         p = parseFloat(document.getElementById("rp").value);
         x = parseFloat(document.getElementById("rx").value);
         n = parseFloat(document.getElementById("rn").value);
 
-        var solucion = Number((factorial(n) / (factorial(x) * factorial(n - x))) * exponente(p, x) * exponente(1 - p, n - x)).toFixed(4);
+        //aca simplemente escribimos la formula teniendo en cuenta los parentesis y diferentes signos usados en este lenguaje
+
+        var solucion = Number((factorial(n) / (factorial(x) * factorial(n - x))) * p ** x * (1 - p) ** (n - x)).toFixed(4);
+
+        //aca tomamos la solucion y la multiplicamos por 100 para obtener el resultado en porcentaje
 
         var solucion_porcen = Number(solucion * 100).toFixed(2);
+
+        //y por ultimo tomamos tanto la solucion como la solucion en porcentaje y las mostramos en los respectivos inputs
 
         document.getElementById("resul1").value = solucion;
         document.getElementById("resul2").value = solucion_porcen + "%";
